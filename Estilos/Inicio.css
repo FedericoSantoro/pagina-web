@@ -84,7 +84,7 @@ header nav ul li a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main .juegos{
+.main .juegos .madison, .main .juegos .manmedan, .main .juegos .gow, .main .juegos .saw{
     margin: 10px;
     padding: 10px;
     width: calc(100% - 40px);
@@ -92,7 +92,7 @@ header nav ul li a:hover{
     position: relative;
 }
 
-.main .juegos div {
+.main .juegos .madison div , .main .juegos .manmedan div, .main .juegos .gow div, .main .juegos .saw div{
     margin: 10px;
     padding: 10px;
     width: calc(100% - 40px);
@@ -104,12 +104,12 @@ header nav ul li a:hover{
     border: 2px solid black;
 }
 
-.main .juegos div h3{
+.main .juegos .madison div h3, .main .juegos .manmedan div h3, .main .juegos .gow div h3, .main .juegos .saw div h3{
     position: absolute;
     left: 50%;
 }
 
-.main .juegos div img{
+.main .juegos .madison div img, .main .juegos .manmedan div img, .main .juegos .gow div img, .main .juegos .saw div img{
     height: 150px;
     width: 150px;
     max-height: 150px;
@@ -126,7 +126,7 @@ header nav ul li a:hover{
     top: calc(50% - 90px);
 }
 
-.main .juegos p{
+.main .juegos .madison p, .main .juegos .manmedan p, .main .juegos .gow p, .main .juegos .saw p{
     position: absolute;
     width: 70%;
     margin-left: 225px;
@@ -135,7 +135,7 @@ header nav ul li a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main .juegos{
+.main .juegos .madison .compra, .main .juegos .manmedan .compra, .main .juegos .gow .compra, .main .juegos .saw .compra{
     text-decoration: none;
     padding: 5px;
     color: black;
@@ -151,11 +151,11 @@ header nav ul li a:hover{
     box-shadow: 5px 5px 0px rgb(82, 82, 145);
 }
 
-.main .juegos .compra:hover{
+.main .juegos .madison .compra:hover, .main .juegos .manmedan .compra:hover, .main .juegos .gow .compra:hover, .main .juegos .saw .compra:hover{
     box-shadow: 2px 2px 0px rgb(82, 82, 145);
 }
 
-.main .juegos .compra:active{
+.main .juegos .madison .compra:active, .main .juegos .manmedan .compra:active, .main .juegos .gow .compra:active, .main .juegos .saw .compra:active{
     box-shadow: 0px 0px 0px rgb(82, 82, 145);
 }
 
