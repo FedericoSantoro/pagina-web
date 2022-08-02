@@ -193,8 +193,7 @@ header nav ul li a:hover{
 .main aside .consultas form textarea{
     min-width: 100%;
     max-width: 100%;
-    min-height: 350px;
-    max-height: 350px;
+    max-height: 150px;
 }
 
 .main aside .consultas form input{
