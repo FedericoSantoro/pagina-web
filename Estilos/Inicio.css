@@ -37,6 +37,7 @@ header div img{
 
 header nav{
     position: sticky;
+    top: 15px;
     padding-left: 5%;
     background: lightblue;
     overflow: hidden;
