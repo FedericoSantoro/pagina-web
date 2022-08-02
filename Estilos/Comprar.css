@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    position: relative;
+    top: 180px;
+    left: 35%;
+    background: rgb(43, 39, 39);
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 50px;
+    padding: 20px;
+}
+
+header{
+    background: rgb(221, 26, 146);
+}
+
+header div img{
+    border-radius: 50%;
+    width: 100px;
+    background-color: aliceblue;
+    position: relative;
+    left: 40%;
+}
+
+header div h1{
+    position: relative;
+    left: 30%;
+}
+
+.main{
+    background: rgb(221, 74, 74);
+    height: 400px;
+}
+
+.main h2{
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"]{
+    font-size: 15px;
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #4A88F4;
+    cursor: pointer;
+}
+
+.main .opciones{
+    position: relative;
+    left: 95px;
+}
+
+.main .volver{
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #1668C4;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: calc(100% - 20px);
+    display: block;
+    padding: 5px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.main .volver:hover{
+    background: #4A88F4;
+    cursor: pointer;
+}

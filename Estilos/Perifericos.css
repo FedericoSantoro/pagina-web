@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(177, 162, 164);
+}
+
+header{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+header div{
+    padding-left: 5%;
+    position: relative;
+    left: 5px;
+    display: inline-block;
+}
+
+header div h1{
+    
+    right: 40%;
+    position: relative;
+    bottom: 40px;
+    display: inline-block;
+}
+
+header div img{
+    border-radius: 50%;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+header nav{
+    padding-left: 5%;
+    background: lightblue;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+header nav ul li a:hover{
+    background: rgb(117, 191, 216);
+    color: white;
+}
+
+.main{
+    width: 100%;
+}
+
+.main .perifericos{
+    border-radius: 10px;
+    background-color: rgb(202, 130, 130);
+    width: 65%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    margin-left: 105px; 
+}
+
+.main .perifericos h2{
+    margin: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main .perifericos .mouse, .main .perifericos .auricular{
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 40px);
+    height: 250px;
+    position: relative;
+}
+
+.main .perifericos .mouse div , .main .perifericos .auricular div {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    position: relative;
+    border: 2px solid black;
+}
+
+.main .perifericos .mouse div h3, .main .perifericos .auricular div h3{
+    position: absolute;
+    left: 50%;
+}
+
+.main .perifericos .mouse div img, .main .perifericos .auricular div img{
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    position: absolute;
+    top: calc(50% - 90px);
+}
+
+.main .perifericos .mouse p, .main .perifericos .auricular p{
+    position: absolute;
+    width: 70%;
+    margin-left: 225px;
+    top: 30%;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main .perifericos .mouse .compra, .main .perifericos .auricular .compra{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background: rgb(131, 131, 199);
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    flex-direction: column;
+    float: left;
+    box-shadow: 5px 5px 0px rgb(82, 82, 145);
+}
+
+.main .perifericos .mouse .compra:hover, .main .perifericos .auricular .compra:hover{
+    box-shadow: 2px 2px 0px rgb(82, 82, 145);
+}
+
+.main .perifericos .mouse .compra:active, .main .perifericos .auricular .compra:active{
+    box-shadow: 0px 0px 0px rgb(82, 82, 145);
+} 
+
+.main aside .informacion{
+    float: left;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 15px;
+    background: rgb(120, 190, 147);
+    width: calc(20% - 20px);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.main aside h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main aside p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main aside .consultas{
+    float: left;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 15px;
+    background: rgb(192, 129, 46);
+    width: calc(20% - 20px);
+    border-radius: 10px;
+}
+
+.main aside .consultas form textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.main aside .consultas form input{
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #1668C4;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: calc(100% - 20px);
+    display: block;
+    padding: 5px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+.main aside .consultas form input:hover{
+    background: #4A88F4;
+    cursor: pointer;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    top: 85%;
+    background: rgb(35, 35, 43);
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+footer h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    padding: 15px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li a{
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(35, 35, 43);
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    color: rgb(170, 42, 42);
+}
+
+footer ul li a:hover{
+    color: white;
+}

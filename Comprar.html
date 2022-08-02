@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juegos Rotersz</title>
+        <link rel="stylesheet" href="Estilos/Comprar.css">
+        <link rel="shortcut icon" href="Imagenes/logo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="Inicio.html"><img width="200" src="Imagenes/logo.jpg" alt="Logo Rotersz" title="Inicio"></a>
+            </div>
+            <div>
+                <h1>Juegos Rotersz</h1>
+            </div>
+        </header>
+        <section class="main">
+            <section class="compra">
+                <h2>Ingresar datos para comprar:</h2>
+                <article>
+                    <form action="quepasa.html" method="post">
+                        <label for="numerotarjeta">Ingrese su numero de tarjeta:</label>
+                        <input type="text" id="numerotarjeta" maxlength="16" placeholder="XXXXXXXXXXXXXXXX" required><br><br>
+                        <label for="vencimiento">vencimiento:</label>
+                        <input type="datetime" id="vencimiento" placeholder="mm/aa" maxlength="5" required><br><br>
+                        <input type="submit" value="Seguir">
+                        <a class="volver" href="Inicio.html">Volver</a>
+                    </form>
+                </article>
+            </section>
+        </section>
+    </body>
+</html>
