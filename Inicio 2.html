@@ -10,65 +10,71 @@
         <meta name="description" content="Juegos Rotersz todos los juegos de consola o PC y perifericos que podes buscar en un solo lugar">
     </head>
     <body>
-        <header>
-            <div>
-        <a href="index.html"><img width="200" src="Imagenes/logo.jpg" alt="Logo Rotersz" title="Inicio"></a>
-            </div>
-            <div>
-                <h1><span>Juegos Rotersz</span></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Juegos PC</a></li>
-                    <li><a href="Inicio 2.html">Juegos Consola</a></li>
-                    <li><a href="Perifericos.html">Perifericos</a></li>
-                    <li><a href="Sesion.html">Inicio de sesión</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="main">
-            <section class="juegos">
-                <h2>Juegos de consola</h2>
-                <article class="uDawn">
-                    <div><h3>Until Dawn</h3>
-                    <a href="Comprar.html"><img width="100" src="Imagenes/untildawn.jpg" alt="Until Dawn" title="Until Dawn"></a><br>
-                    <p>
-                        Until Dawn es un videojuego de terror narrativo perteneciente 
-                        a los subgéneros horror de supervivencia y Drama Interactivo 
-                        desarrollado por Supermassive Games y publicado por Sony 
-                        Computer Entertainment, para PlayStation 4.
-                    </p>
-                    <a class="compra" href="Comprar.html">Comprar $880</a></div>
-                </article>
+        <div class="contenedor">
+            <header>
+                <div class="logo-nombre">
+                    <a href="index.html"><img width="200" src="Imagenes/logo.jpg" alt="Logo Rotersz" title="Inicio"></a>
+                    <h1>Juegos Rotersz</h1>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Juegos PC</a></li>
+                        <li><a href="Inicio 2.html">Juegos Consola</a></li>
+                        <li><a href="Perifericos.html">Perifericos</a></li>
+                        <li><a href="Sesion.html">Inicio de sesión</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="main">
+                <section class="juegos">
+                    <h2>Juegos de consola</h2>
+                    <article class="juego">
+                        <h3>Until Dawn</h3>
+                        <div class="columna">
+                            <a href="Comprar.html"><img width="100" src="Imagenes/untildawn.jpg" alt="Until Dawn" title="Until Dawn"></a><br>
+                            <div class="fila">
+                                <p>
+                                    Until Dawn es un videojuego de terror narrativo perteneciente 
+                                    a los subgéneros horror de supervivencia y Drama Interactivo 
+                                    desarrollado por Supermassive Games y publicado por Sony 
+                                    Computer Entertainment, para PlayStation 4.
+                                </p>
+                                <a class="compra" href="Comprar.html">Comprar $880</a>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <aside class="aside">
+                    <article class="informacion">
+                        <h2>Sobre nosotros</h2><br>
+                        <p>
+                            Somos un grupo individual que compra claves de activacion y las vende a precios menos inflados
+                            comparado a paginas mas conocidas como Steam, Epic Games, etc. <b>No se busca difamar a ninguna de
+                            estas paginas</b>, solo es una alternativa a la hora de comprar videojuegos.
+                        </p>
+                    </article>
+                    <article class="consultas">
+                        <h2>Consultas</h2>
+                        <p>
+                            Podes enviarnos consultas al escribirlas a continuacion y clickear el boton de enviar consulta.
+                        </p>
+                        <form action="Inicio 2.html">
+                            <textarea name="" id="" cols="30" rows="10" maxlength="200"></textarea>
+                            <input type="submit" value="Enviar consulta">
+                        </form>
+                     </article>
+                </aside>
             </section>
-            <aside class="">
-                <article class="informacion">
-                    <h2>Sobre nosotros</h2><br>
-                    <p>
-                        Somos un grupo individual que compra claves de activacion y las vende a precios menos inflados
-                        comparado a paginas mas conocidas como Steam, Epic Games, etc. <b>No se busca difamar a ninguna de
-                        estas paginas</b>, solo es una alternativa a la hora de comprar videojuegos.
-                    </p>
-                </article>
-                <article class="consultas">
-                    <h2>Consultas</h2>
-                    <p>
-                        Podes enviarnos consultas al escribirlas a continuacion y clickear el boton de enviar consulta.
-                    </p>
-                    <form action="Inicio 2.html">
-                        <textarea name="" id="" cols="30" rows="10" maxlength="200"></textarea>
-                        <input type="submit" value="Enviar consulta">
-                    </form>
-                 </article>
-            </aside>
-        </section>
-        <footer>
-            <h3>Contacto:</h3>
-            <ul>
-                <li><a href="mailto:fechutopo@hotmail.com" title="Enviar mail">Mail</a></li>
-                <li><a href="tel:+54 9 11 55850996" title="Llamar">Celular</a></li>
-                <li><a href="https://www.instagram.com/fedee_santoro/" title="Ir a Instagram">Instagram</a><br></li>
-            </ul>
-        </footer>
+            <footer>
+                <h3>Contacto:</h3>
+                <div class="contacto">
+                    <ul>
+                        <li><a href="mailto:fechutopo@hotmail.com" title="Enviar mail">Mail</a></li>
+                        <li><a href="tel:+54 9 11 55850996" title="Llamar">Celular</a></li>
+                        <li><a href="https://www.instagram.com/fedee_santoro/" title="Ir a Instagram">Instagram</a><br></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
