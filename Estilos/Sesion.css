@@ -17,6 +17,10 @@ body{
 
 header{
     background: rgb(221, 26, 146);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 header div img{
@@ -24,17 +28,19 @@ header div img{
     width: 100px;
     background-color: aliceblue;
     position: relative;
-    left: 40%;
+    /* left: 40%; */
 }
 
-header div h1{
+/* header div h1{
     position: relative;
     left: 30%;
-}
+} */
 
 .main{
     height: 425px;
     background: rgb(221, 74, 74);
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .main h2{
@@ -74,9 +80,13 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-.main .opciones{
-    position: relative;
-    left: 95px;
+.main .opcion{
+    /* position: relative;
+    left: 95px; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: s;
 }
 
 .main .volver{
@@ -97,10 +107,13 @@ input[type="submit"]:hover{
     border: 1px solid grey;
     text-decoration: none;
     position: relative;
-    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main .volver:hover{
     background: #4A88F4;
     cursor: pointer;
 }
+
