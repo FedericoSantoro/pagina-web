@@ -31,10 +31,10 @@ header div img{
     /* left: 40%; */
 }
 
-header div h1{
-    /* position: relative; */
-    /* left: 30%; */
-}
+/* header div h1{
+    position: relative; 
+    left: 30%;
+} */
 
 .main{
     background: rgb(221, 74, 74);
